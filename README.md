@@ -25,7 +25,12 @@
    * 第五次点击`Settings`-->`Secrets`-->`New repository secret`，进入新建页面。
    * 在`Name`栏输入`RECEIVE_MAIL`，`Value`栏输入自己接收填报成功邮件推送的邮箱，然后点击`Add secret`。
    * 多人模式与单人模式的添加方法相同，具体格式为`学号,学号,学号`和`密码,密码,密码`，例如：`201884160000,201884160001`和`12345678,12345678`(**注意：逗号为英文标点，使用中文标点会导致脚本运行失败**)。
-### 3.启用 Actions
+### 3. 修改个人信息
+   * 其中scrip.sh文件中第19行经纬度可自行根据自我位置进行填写变更，或者将myvs.txt文件中的成功获取修改为请求超时，即系统无法你的具体位置
+   * myvs.txt文件中myvs_13a为省级代码编号（例如河南为41），myvs_13b为市级代码编号（例如郑州为4101），myvs_13c为具体位置，如有位置变动请自行修改，修改时切记同时修改sheng6的值（同样为省级代码编号，已默认为41），省市级代码编号可自行百度查询，根据自身情况修改其等号后的值即可
+   
+
+### 4.启用 Actions
    * 点击上方的`Actions`，点击绿色按钮确认启用`Actions`功能。
    * 点击左侧`justsoso`，点击`Run workflow`，运行一次项目。
    ![actions.PNG](https://i.loli.net/2020/11/24/HrQoCwFkgcAYjps.png)
@@ -34,10 +39,12 @@
 ![check.PNG](https://i.loli.net/2020/11/24/GUEgdrmpIAxlPW5.png)
 如有疑问可通过`Issues`功能提交问题，如出现签到失败的问题请耐心等待更新。
 
+
 ---
 ## 📢更新方法
    * 点击`Settings`-->`Options`-->`Dangerous Zone`-->`delete this reposity`，按照提示删除本项目，然后重新部署
    * 使用git，相关命令请自行搜索。
+   * 在action里重新开启，选择enable即可
 # 在大佬的基础上增加了邮件提醒功能
    * 在[@d6imde9](https://github.com/d6imde9)书写的代码基础上添加了邮件推送的功能，将打卡成功的界面利用邮件推送，配置方法已经在上方作了说明
    * 在secrets中增加邮箱账号和密码MAIL_USERNAME和MAIL_PASSWORD，RECEIVE_MAIL
