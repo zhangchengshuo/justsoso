@@ -23,7 +23,7 @@
    * 第四次点击`Settings`-->`Secrets`-->`New repository secret`，进入新建页面。
    * 在`Name`栏输入`MAIL_PASSWORD`，`Value`栏输入自己发送邮件的邮箱的密码，然后点击`Add secret`。(**注意：* * QQ邮箱的密码并非登录密码，而是QQ邮箱授权码，MAIL_PASSWORD不是发送邮箱账号的密码，！！！，是授权码，登录QQ邮箱，登录后点击`设置`然后进入`账户`将‘POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务’中的服务开启，获取授权码，将授权码填入即可。**)
    * 第五次点击`Settings`-->`Secrets`-->`New repository secret`，进入新建页面。
-   * 在`Name`栏输入`receive_MAIL`，`Value`栏输入自己接收填报成功邮件推送的邮箱，然后点击`Add secret`。
+   * 在`Name`栏输入`RECEIVE_MAIL`，`Value`栏输入自己接收填报成功邮件推送的邮箱，然后点击`Add secret`。
    * 多人模式与单人模式的添加方法相同，具体格式为`学号,学号,学号`和`密码,密码,密码`，例如：`201884160000,201884160001`和`12345678,12345678`(**注意：逗号为英文标点，使用中文标点会导致脚本运行失败**)。
 ### 3.启用 Actions
    * 点击上方的`Actions`，点击绿色按钮确认启用`Actions`功能。
@@ -41,7 +41,7 @@
 # 在大佬的基础上增加了邮件提醒功能
    * 在[@d6imde9](https://github.com/d6imde9)书写的代码基础上添加了邮件推送的功能，将打卡成功的界面利用邮件推送，配置方法已经在上方作了说明
    * 在secrets中增加邮箱账号和密码MAIL_USERNAME和MAIL_PASSWORD，receive_MAIL
-   * receive_MAIL为接收邮件的邮箱，EMAIL_PASSWORD不是发送邮箱账号的密码，！！！，是授权码，以QQ邮箱为例，登录后点击`设置`然后进入`账户`将‘POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务’中的服务开启，获取授权码，将授权码填入即可
+   * RECEIVE_MAIL为接收邮件的邮箱，EMAIL_PASSWORD不是发送邮箱账号的密码，！！！，是授权码，以QQ邮箱为例，登录后点击`设置`然后进入`账户`将‘POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务’中的服务开启，获取授权码，将授权码填入即可
 # 特别感谢
 
  * [@d6imde9](https://github.com/d6imde9)
