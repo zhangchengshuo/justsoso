@@ -40,7 +40,7 @@
    * 使用git，相关命令请自行搜索。
 # 在大佬的基础上增加了邮件提醒功能
    * 在[@d6imde9](https://github.com/d6imde9)书写的代码基础上添加了邮件推送的功能，将打卡成功的界面利用邮件推送，配置方法已经在上方作了说明
-   * 在secrets中增加邮箱账号和密码MAIL_USERNAME和MAIL_PASSWORD，receive_MAIL
+   * 在secrets中增加邮箱账号和密码MAIL_USERNAME和MAIL_PASSWORD，RECEIVE_MAIL
    * RECEIVE_MAIL为接收邮件的邮箱，EMAIL_PASSWORD不是发送邮箱账号的密码，！！！，是授权码，以QQ邮箱为例，登录后点击`设置`然后进入`账户`将‘POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务’中的服务开启，获取授权码，将授权码填入即可
 # 特别感谢
 
