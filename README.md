@@ -1,6 +1,8 @@
-#2022.1.5更新
+# 2022.1.5更新
 对于假期的多人模式更新，解决在校期间多人模式共用一套地理位置坐标的问题
-创建多个人的myvs.txt文件,并且将学号密码的顺序对应起来，核心代码参考mode2scrip.sh
+创建多个人的myvs.txt文件,如下图所示，并且将学号密码的顺序对应起来，代码参考mode2script.sh
+ ![image](https://github.com/mauhin/justsoso/raw/main/images/微信图片_20220105202813.png)
+ ![image](https://github.com/mauhin/justsoso/raw/main/images/微信图片_20220105203102.png)
 # justsoso
 # 郑大健康状况上报平台脚本
 # 用机器解放双手
@@ -27,7 +29,6 @@
    * 在`Name`栏输入`MAIL_USERNAME`，`Value`栏输入自己发送邮件的邮箱，然后点击`Add secret`。(**注意：此处默认使用QQ邮箱发送邮件，如果想使用其他邮箱，请自行在main.yml文件中修改服务器参数。` server_address: smtp.qq.com`**)
    * 第四次点击`Settings`-->`Secrets`-->`New repository secret`，进入新建页面。
    * 在`Name`栏输入`MAIL_PASSWORD`，`Value`栏输入自己发送邮件的邮箱的密码，然后点击`Add secret`。(**注意：默认设置的为QQ邮箱服务器， QQ邮箱的密码并非登录密码，而是QQ邮箱授权码，MAIL_PASSWORD不是发送邮箱账号的密码，！！！，是授权码，登录QQ邮箱，登录后点击`设置`然后进入`账户`将找到`POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务`,点击开启，获取第三方邮箱登录授权码，将授权码填入即可。**)
-   ![image](https://github.com/mauhin/justsoso/raw/main/images/QQMail1.png)
    ![image](https://github.com/mauhin/justsoso/raw/main/images/QQMail2.png)
    ![image](https://github.com/mauhin/justsoso/raw/main/images/QQMail3.png)
    * 第五次点击`Settings`-->`Secrets`-->`New repository secret`，进入新建页面。
