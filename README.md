@@ -1,5 +1,5 @@
 # 2022.1.5更新
-对于假期的多人模式更新，解决在校期间多人模式共用一套地理位置坐标的问题
+对于假期的多人模式更新，解决在校期间多人模式共用一套地理位置坐标的问题,利用case区分
 创建多个人的myvs.txt文件,如下图所示，并且将学号密码的顺序对应起来，代码参考mode2script.sh
  ![image](https://github.com/mauhin/justsoso/raw/main/images/微信图片_20220105202813.png)
  ![image](https://github.com/mauhin/justsoso/raw/main/images/微信图片_20220105203102.png)
